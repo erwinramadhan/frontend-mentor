@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: rgb(235, 235, 235);
+}
+.hero{
+    height: 600px;
+    background: url('../images/image-hero-desktop.jpg');
+    background-size: cover;
+}
+
+.box{
+    width: 1366px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu{
+    display:flex;
+    width: 800px;
+}
+
+.menu a{
+    width: 80px;
+    padding: 20px 5px;
+    text-decoration: none;
+    color: white;
+}
+
